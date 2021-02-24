@@ -1,0 +1,5 @@
+print('Calcule aumento de salário.')
+salario = float(input('Informe o valor do salário em reais: R$'))
+aumento = float(input('Informe a porcentagem do aumento: '))
+novosalario = salario+(salario*(aumento/100))
+print('O novo salário com {}% de aumento é de R${}'.format(aumento, novosalario))

@@ -1,0 +1,5 @@
+print('Calcule descontos.')
+prod = float(input('Informe o valor do produto em reais: R$'))
+desc = float(input('Informe a porcentagem do desconto: '))
+prodcd = prod-(prod*(desc/100))
+print('O valor do produto com {}% de desconto é de R${:.2f}.'.format(desc, prodcd))
